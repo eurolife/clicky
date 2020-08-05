@@ -1,0 +1,90 @@
+@import '~hc-offcanvas-nav/src/scss/hc-offcanvas-nav.scss';
+
+/* Mobile nav */
+.hc-offcanvas-nav {
+  display: block;
+  @apply uppercase text-blue;
+  @screen lg {
+    display: none;
+  }
+    top: 66px;
+    z-index: 99;
+    @screen sm {
+      top: 83px;
+    }
+    .nav-container {
+      top: auto;
+      width: 100%;
+      z-index: 99;
+      
+      .nav-wrapper {
+        @apply bg-white;
+        box-shadow: none !important;
+      }
+    }
+
+    
+    ul {
+      margin: 0;
+      padding: 0;
+      
+      list-style: none;
+      @apply bg-white;
+
+      li {
+        border-bottom: 1px dotted #ccc;
+        &:last-child {
+          border-bottom: none;
+        }
+
+        .nav-item {
+          @apply flex justify-between h-full w-full text-lg text-blue px-5 py-4 font-normal;
+          padding-right: 20px;
+          border-bottom: none;
+        }
+      }
+
+    }
+}
+
+.hc-nav-trigger {
+    top: 14px;
+    right: 20px;
+    display: block;
+    @screen lg {
+      display: none;
+    }
+    span,
+    span::before,
+    span::after {
+        @apply bg-grey-medium;
+    }
+}
+
+.hc-offcanvas-nav.disable-body.nav-open::after,
+.hc-offcanvas-nav .sub-level-open::after {
+    //top: 66px;
+    z-index: 98;
+   
+}
+.hc-offcanvas-nav.disable-body.nav-open::after {
+  top: 67px;
+  @screen sm {
+    top: 83px;
+  }
+}
+
+/* Desktop nav */
+.desktop-nav {
+  ul {
+    @apply text-xs uppercase flex justify-between font-sb tracking-widest w-full;
+    li {
+      a {
+        @apply text-blue transition-colors duration-300;
+        &:hover {
+          @apply text-blue-navy;
+        }
+      }
+    }
+  }
+}

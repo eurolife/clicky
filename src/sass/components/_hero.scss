@@ -1,0 +1,30 @@
+.hero {
+  background-image: url(../images/hero.jpg);
+  background-size: cover;
+  height: 400px;
+  @screen sm {
+    height: 350px;
+  }
+  @screen md {
+    height: 450px;
+  }
+  @screen xl {
+    height: 550px;
+  }
+}
+
+@media 
+  (-webkit-min-device-pixel-ratio: 2), 
+  (min-resolution: 192dpi) { 
+  .hero {
+    background-image: url(../images/hero@2x.jpg);
+  }
+}
+
+@media 
+  (-webkit-min-device-pixel-ratio: 3), 
+  (min-resolution: 192dpi) { 
+  .hero {
+    background-image: url(../images/hero@3x.jpg);
+  }
+}

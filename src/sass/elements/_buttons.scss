@@ -1,0 +1,7 @@
+.button {
+  @apply rounded-full py-3 px-6 uppercase font-sb tracking-widest transition-colors duration-300;
+  letter-spacing: 0.2em;
+  @screen lg {
+    @apply py-5 px-10;
+  }
+}

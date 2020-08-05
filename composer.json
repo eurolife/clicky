@@ -1,0 +1,16 @@
+{
+    "name": "storm/smashcamps",
+    "require": {
+        "php": "^7.1",
+        "symfony/var-dumper": "^4.0",
+        "vlucas/phpdotenv": "3",
+        "illuminate/support": "^5.0",
+        "laravel/helpers": "^1.1"
+    },
+    "authors": [
+        {
+            "name": "Owen Melbourne",
+            "email": "owen@stormcreative.co.uk"
+        }
+    ]
+}

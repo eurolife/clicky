@@ -1,0 +1,9 @@
+.newsletter-signup {
+  ::placeholder {
+    @apply text-white;
+  } 
+  button {
+    height: 35px;
+    width: 40px;
+  }
+}

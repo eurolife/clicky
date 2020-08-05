@@ -1,0 +1,10 @@
+footer{
+  background: rgb(25,71,119);
+  background: linear-gradient(0deg, rgba(25,71,119,1) 0%, rgba(109,177,212,1) 100%);
+  a {
+    @apply transition-all duration-300;
+    &:hover {
+      @apply opacity-50;
+    }
+  }
+}
