@@ -1,6 +1,6 @@
 <header class="header-mobile flex lg:hidden p-2 sm:p-4 shadow relative">
   <div class="w-1/2">
-    <a href="/">
+    <a href="#">
       <img src="images/logo.svg" class="logo-mobile">
     </a>
   </div>

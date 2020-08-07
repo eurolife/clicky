@@ -1,6 +1,6 @@
 <header class="hidden container lg:flex lg:justify-between lg:items-center pt-10 pb-8 mb-4 border-b border-blue">
   <div class="">
-    <a href="/">
+    <a href="#">
       <img src="images/logo.svg" class="logo-desktop">
     </a>
   </div>
