@@ -28,6 +28,8 @@
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@fullhuman/postcss-purgecss": "^2.1.0",
     "@glidejs/glide": "^3.4.1",
+    "accordion-js": "^2.8.0",
+    "aos": "^3.0.0-beta.6",
     "cookieconsent": "^3.1.1",
     "copy-webpack-plugin": "^5.1.1",
     "core-js": "^3.6.4",
@@ -39,9 +41,13 @@
     "laravel-mix": "^5.0.1",
     "laravel-mix-imagemin": "^1.0.3",
     "livereloadx": "^0.3.10",
+    "magnific-popup": "^1.1.0",
+    "modal-video": "^2.4.2",
+    "owl.carousel": "^2.3.4",
     "tailwindcss": "^1.6.0"
   },
   "devDependencies": {
+    "autoprefixer": "^9.8.6",
     "browser-sync": "^2.26.12",
     "browser-sync-webpack-plugin": "^2.0.1",
     "imagemin-webpack-plugin": "^2.4.2",

@@ -14,16 +14,14 @@
 }
 
 @media 
-  (-webkit-min-device-pixel-ratio: 2), 
-  (min-resolution: 192dpi) { 
+  (-webkit-min-device-pixel-ratio: 2) { 
   .hero {
     background-image: url(../images/hero@2x.jpg);
   }
 }
 
 @media 
-  (-webkit-min-device-pixel-ratio: 3), 
-  (min-resolution: 192dpi) { 
+  (-webkit-min-device-pixel-ratio: 3) { 
   .hero {
     background-image: url(../images/hero@3x.jpg);
   }

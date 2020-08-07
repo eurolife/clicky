@@ -1,0 +1,25 @@
+.card {
+  .avatar {
+    height: 124px;
+    width: 124px;
+    margin: 0 auto;
+  }
+}
+
+/* IE fix */
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    .card {
+      margin-top: 3em;
+      width: 33%;
+      padding: 0 2em;
+      .bg-white {
+        height: 220px;
+      }
+    }
+  }
+}
+

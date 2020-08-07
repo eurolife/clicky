@@ -14,6 +14,7 @@ module.exports = {
                 default: '#ffffff',
             },
             grey: {
+                light: '#f9f9f9',
                 default: '#ccc',
                 medium: '#686868',
             },
@@ -27,7 +28,7 @@ module.exports = {
             
         },
         fontFamily: {
-            heading: 'ProximaNova Bold',
+            heading: ['ProximaNova Bold', 'ProximaNova SemiBold'], 
             b: 'ProximaNova Bold',
             sb: 'ProximaNova SemiBold',
             lt: 'ProximaNova Light',
@@ -52,8 +53,12 @@ module.exports = {
         },
         extend: {
             opacity: {
-                '20': '20%'
-            }
+                '20': '20%',
+                '30': '30%'
+            },
+            boxShadow: {
+                extra: '-2px 2px 8px 4px rgba(0, 0, 0, 0.1);',
+            },
         },
     },
     

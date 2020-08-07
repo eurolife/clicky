@@ -1,0 +1,36 @@
+.accordion{
+  background: rgb(25,71,119);
+  background: linear-gradient(0deg, rgba(109,177,212,1) 0%, rgba(25,71,119,1) 100%);
+
+  a {
+    @apply transition-all duration-300;
+    &:hover {
+      @apply opacity-50;
+    }
+  }
+  .ac {
+    @apply bg-transparent border-0;
+    .ac-q {
+      padding: 30px;
+      @apply text-white text-lg font-body;
+      &:focus {
+        outline: none;
+
+      }
+      &::after {
+        content: url(../images/plus.svg);
+        //background
+      }
+    }
+    .ac-a p {
+      padding-left: 20px;
+      @apply text-white font-body;
+      @screen lg {
+        @apply text-lg;
+      }
+    }
+    + .ac {
+      @apply border-t-2 border-white border-opacity-50;
+    }
+  }
+}

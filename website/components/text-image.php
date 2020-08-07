@@ -1,4 +1,4 @@
-<div class="container md:flex">
+<section class="container md:flex">
   <div class="md:w-1/2 text-center md:pl-4">
   <img src="images/riccardo-chiarini-365677-unsplash.jpg"
      srcset="images/riccardo-chiarini-365677-unsplash@2x.jpg 2x,
@@ -11,4 +11,4 @@
     <p>Praesent id congue magna. Duis vitae fermentum sem, id dignissim augue. Nullam ullamcorper nibh magna, et lacinia nulla efficitur in. Donec eros est, varius ut nibh in.</p>
     <p>Hendrerit pharetra orci. Vivamus orci urna, dictum sed orci mattis, eleifend varius ante. Sed tincidunt risus ac maximus feugiat. Ut lobortis tortor sed orci varius euismod. Vestibulum convallis, ex non egestas maximus, lectus mauris vestibulum.</p>
   </div>
-</div>
+</section>

@@ -32,7 +32,7 @@ mix
     );
 
 const cssWhitelist = [
-    /cc-/,
+    /owl/,
     /cms-content/,
     /aos/,
     /glide_/,
@@ -52,8 +52,22 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
 mix.sass('./src/sass/app.scss', './website/css', {}, [
     tailwindcss(__dirname + '/tailwind.config.js'),
     ...mix.inProduction() ? [purgecss] : []
-]);
+])
+.options({
+    autoprefixer: {
+        
+        options: {
+            grid: 'autoplace',
+            browsers: [
+                "last 10 versions",
+                "ie 10",
+                "ie 11",
+            ]
+        }
+    }
+});;
 mix.browserSync({
-    proxy: 'localhost/jobs/clicky/clicky-test/website/',
+    ghostMode: false,
+    proxy: 'localhost/jobs/clicky/clicky/website/',
     files: ['website/**/*.php', 'website/**/*.css', 'website/**/*.js']
 });

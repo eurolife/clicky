@@ -1,0 +1,28 @@
+.image {
+  .icon {
+    height: 44px;
+    width: 44px;
+    margin-top: calc(50% - 22px);
+    margin-left: calc(50% - 22px);
+    transition: opacity 0.3s;
+  }
+  &:hover {
+    .icon {
+      @apply opacity-100;
+    }
+  }
+}
+
+/* IE fix */
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    .image {
+      margin-top: 3em;
+      // width: 25%;
+      // padding: 0 2em;
+    }
+  }
+}

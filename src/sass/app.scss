@@ -4,13 +4,27 @@
 
 @tailwind utilities;
 
+@import '~modal-video/scss/modal-video';
+@import 'owl.carousel/dist/assets/owl.carousel';
+@import 'owl.carousel/dist/assets/owl.theme.default';
+@import '~accordion-js/dist/accordion.min.css';
+@import '~aos/dist/aos.css';
+@import '~magnific-popup/dist/magnific-popup.css';
+
 @import 'typography';
 @import 'base';
+@import 'helpers';
 
 @import 'elements/buttons';
 
 @import 'components/newsletter-signup';
 @import 'components/hero';
+@import 'components/hero-video';
+@import 'components/carousel';
+@import 'components/accordion';
+@import 'components/card';
+@import 'components/logo-grid';
+@import 'components/image-grid';
 
 @import 'includes/header';
 @import 'includes/nav';

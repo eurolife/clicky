@@ -1,0 +1,35 @@
+.hero-video {
+  height: 400px;
+  @screen sm {
+    height: 450px;
+  }
+  @screen md {
+    height: 550px;
+  }
+  @screen lg {
+    background-image: none !important;
+    height: auto;
+  }
+  @screen xl {
+    
+  }
+  .bg-image {
+    display: none;
+    @screen lg {
+      display: block;
+    }
+  }
+  .video-play {
+    width: 92px;
+    height: 92px;
+  }
+
+  a {
+    background: rgba(black, 0.3);
+    transition: background 0.3s;
+    &:hover {
+        background: rgba(black, 0.5);
+    }
+  }
+}
+

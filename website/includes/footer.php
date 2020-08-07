@@ -11,16 +11,16 @@
         </div>
       </div>
     </div>
-
-    <div class="mt-8 sm:mt-0 sm:w-1/3 lg:w-1/5">
-      <?php include 'footer-column.php' ?>
-    </div>
-    <div class="mt-8 sm:mt-0 sm:w-1/3 lg:w-1/5">
-      <?php include 'footer-column.php' ?>
-    </div>
-    <div class="mt-8 sm:mt-0 sm:w-1/3 lg:w-1/5">
-      <?php include 'footer-column.php' ?>
-    </div>
+    <?php for ($i = 1; $i <= 3; $i++) { ?>
+      <div class="mt-8 sm:mt-0 sm:w-1/3 lg:w-1/5">
+        <div><a class="uppercase" href="/">Link <?= $i; ?></a></div>
+        <ul>
+          <li class="mt-4 xl:mt-8"><a href="/">Here is a long link</a></li>
+          <li class="mt-4 xl:mt-8"><a href="/">Short link</a></li>
+          <li class="mt-4 xl:mt-8"><a href="/">Short link</a></li>
+        </ul>
+      </div>
+    <?php } ?>
     
   
   </div>

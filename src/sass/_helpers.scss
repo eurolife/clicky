@@ -1,0 +1,23 @@
+.move-up {
+  @screen md {
+      transition: transform .4s ease;
+
+      &:hover {
+          transform: translateY(-3px);
+      }
+  }
+}
+
+.tint-20 {
+  background: rgba(black, 0.2);
+}
+.tint-30 {
+  background: rgba(black, 0.3);
+}
+.modal-video-close-btn {
+  @media (max-width: theme('screens.lg')) {
+      position: fixed;
+      top: -50px;
+      right: calc(50% - 17px);
+  }
+}
