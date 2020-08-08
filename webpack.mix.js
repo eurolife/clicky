@@ -35,9 +35,9 @@ const cssWhitelist = [
     /owl/,
     /cms-content/,
     /aos/,
-    /glide_/,
     /modal-video/,
     /hc-/,
+    /mfp/,
 ];
 
 const purgecss = require('@fullhuman/postcss-purgecss')({

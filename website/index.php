@@ -1,3 +1,9 @@
+<?php 
+
+$date = new DateTime();
+$timestamp = $date->getTimestamp();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +13,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Clicky Test</title>
   <meta name="description" content="Website description">
-  <link href="css/app.css?v=2" rel="stylesheet">
+  <link href="css/app.css?v=<?=$timestamp?>" rel="stylesheet">
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   <link rel="shortcut icon" type="image/png" href="favicon.png">
 
@@ -67,6 +73,6 @@
   <?php include 'includes/footer.php' ?>
 </div>
   
-<script src="js/app.js?v=2"></script>
+<script src="js/app.js?v=<?=$timestamp?>"></script>
 </body>
 </html>
