@@ -1,3 +1,6 @@
 {
-  "custom-field": "something"
+  "custom-field": "something",
+  "custom-object": {
+    "custom-text": "<h2>45345</h2><p><strong>safsdfa</strong></p><ul><li><p>sasdfsdf</p></li><li><p>sdfaf</p></li></ul>"
+  }
 }
