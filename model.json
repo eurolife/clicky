@@ -7,11 +7,11 @@
   },
   "custom-object": {
     "custom-line": {
-      ":type": "line",
-      ":richtext": true
+      ":type": "line"
     },
     "custom-text": {
-      ":type": "text"
+      ":type": "text",
+      ":richtext": true
     }
   },
   "custom-list": {
